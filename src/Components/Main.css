@@ -1,0 +1,353 @@
+body{
+    background-color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    color: var(--color-white);
+    transition: all 0.4s ease-in-out;
+    }
+    :root {
+        --color-primary: #12151f;
+        --color-secondary: #A38FFF;
+        --color-white: #FFFFFF;
+        --color-black: #000;
+        --color-grey0: #f8f8f8;
+        --color-grey-1: #dbe1e8;
+        --color-grey-2: #b2becd;
+        --color-grey-3: #6c7983;
+        --color-grey-4: #454e56;
+        --color-grey-5: #2a2e35;
+        --color-grey-6: #101517;
+        --br-sm-2: 14px;
+        --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+      }
+    
+    .Main-Class-Container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        min-height: 100vh;
+    }
+    .Main-Class-Container .Main-Class-left{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .Main-Class-left{
+        
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .Main-Class-Container .Main-Class-left .h-shape{
+        transition: all 0.4s ease-in-out;
+        width: 65%;
+        height: 100%;
+        background-color: var(--color-secondary);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+        clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+    }
+    .Main-Class-Container .Main-Class-left .image{
+        border-radius: var(--br-sm-2);
+        height: 50%;
+        width: 50%;
+        margin-left: 4rem;
+        z-index: 2;
+    }
+    .Main-Class-Container .Main-Class-left .image img{
+        width: 100%;
+        border-radius: 28px;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .Main-Class-Container .Main-Class-right{
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 18rem;
+    }
+    .Main-Class-Container .name{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .Main-Class-Container .name span{
+        color: var(--color-secondary);
+    }
+    .Main-Class-Container p{
+        margin: 1.5rem 0;
+        line-height: 2rem;
+    }
+    .btn{
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .Main-Class-Container .btn{
+        width:150px;
+    }
+    .btn-green{
+        background: #A38FFF;
+        margin-bottom: 7px;
+        margin-left: 3px;
+    }
+    .controls{
+        
+        position: fixed;
+        z-index: 10;
+        top: 50%;
+        right: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-50%);
+    }
+    .controls .control{
+        padding: 1rem;
+        cursor: pointer;
+        background-color: var(--color-grey-4);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.7rem 0;
+        color: white;
+        box-shadow: var(--box-shadow-1);
+    
+    }
+     .control:hover{
+        background-color: var(--color-secondary);
+    }
+
+    /* App */
+
+    .Main-title{
+        background-color: var(--color-primary);
+        padding: 3rem 17rem;
+    }
+    .Main-title-header{
+        align-items: center;
+    }
+    .Main-title-header h2{
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .Main-title-header h2 span{
+        color: #A38FFF;
+    }
+   
+    .about-container{
+        padding-top: 3.5rem;
+        padding: bottom 5rem; ;
+    }
+    .Skill{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 3.5rem 0;
+        position: relative;
+    }
+    .Skill::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-grey-5);
+        transform: translateX(-50%);
+    }
+    .Skill-Name{
+        background-color: var(--color-secondary);
+        width: fit-content;
+        display: flex;
+        height: 40px;
+        align-items: center;
+        border-radius: 15px;
+    }
+    .Skill-Name p{
+        padding: 30px;
+    }
+    .Skill-Name-Main{
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .Contact-details-Main .Contact-details{
+        text-align: center;
+        padding-top: 3.5rem;
+        /* display: flex; */
+        align-items: center;
+        font-size: large;
+
+    }
+    .Contact-in h4{
+        font-size: 20px;
+        font-weight: 400;
+        margin: 2px;
+    }
+    .Contact-details-Main{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .Contact-in{
+        display: flex;
+        align-items: center;
+        gap: 0;
+        font-size: 20px;
+        justify-content: center;
+    }
+    .Contact-icon-main{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap:10px;
+    }
+
+    .Contact-icon{
+        padding: 1rem;
+        cursor: pointer;
+        background-color: var(--color-grey-4);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.7rem 0;
+        color: white;
+        box-shadow: var(--box-shadow-1);
+    }
+    .Contact-icon:hover{
+        background-color: var(--color-secondary);
+        color:black;
+    }
+    /* .Main-title-portfolio{
+        background-color: var(--color-primary);
+        padding: 3rem 18rem;
+    }
+    .Main-title-header-portfolio{
+        align-items: center;
+    }
+    .Main-title-header-portfolio h2{
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .Main-title-header-portfolio h2 span{
+        color: #A38FFF;
+    }
+
+    .Portfolio-Main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        margin-top: 3rem;
+        padding: 3rem 18rem;
+    }
+    .Portfolio-item{
+        position: relative;
+        border-radius: 15px;
+        width: 100%;
+        height: 300px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .Portfolio-Main .Portfolio-item .item{
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-secondary);
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 15px;
+        display: flex;
+        
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Portfolio-Main .Portfolio-item .item h3{
+       font-size: 1.5rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .Portfolio-Main .Portfolio-item .item p{
+        font-size: 1.25rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem; 
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .head-text{
+        
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 400;
+    } */
+
+    .Portfolios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        margin-top: 3rem;
+    }
+    .Portfolios .Portfolio-item{
+        position: relative;
+        border-radius: 15px;
+        width: 100%;
+        height: 250px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .Portfolios .Portfolio-item .item{
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-secondary);
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .Portfolios .Portfolio-item .item h3{
+        font-size: 1.5rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+        font-weight: 700;
+        padding-right: 5px;
+        margin-top: 0;
+    }
+    .Portfolios .Portfolio-item .item p{
+        font-size: 1rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 0;
+    }
