@@ -140,16 +140,16 @@ body{
     }
     .Main-title-header h2{
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 4rem;
         font-weight: 700;
-        margin: 0px;
+        /* margin: 0px; */
     }
     .Main-title-header h2 span{
         color: #A38FFF;
     }
    
     .about-container{
-        padding-top: 3.5rem;
+        /* padding-top: 3.5rem; */
         padding: bottom 5rem; ;
     }
     .Skill{
@@ -171,14 +171,18 @@ body{
     }
     .Skill-Name{
         background-color: var(--color-secondary);
-        width: fit-content;
-        display: flex;
-        height: 40px;
-        align-items: center;
-        border-radius: 15px;
+        margin-bottom: 7px;
+        margin-left:3px;
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
     }
     .Skill-Name p{
-        padding: 30px;
+        /* padding: 30px; */
+    }
+    a{
+        display: inline-block;
     }
     .Skill-Name-Main{
         display:flex;
@@ -194,7 +198,7 @@ body{
 
     }
     .Contact-in h4{
-        font-size: 20px;
+        font-size: 1.7rem;
         font-weight: 400;
         margin: 2px;
     }
@@ -350,4 +354,147 @@ body{
         margin-bottom: 1.5rem;
         margin-left: 1rem;
         margin-top: 0;
+    }
+        
+    @media (max-width: 600px) {
+        .Main-Class-Container{
+            grid-template-columns: repeat(1,1fr);
+            min-height:100vh;
+        }
+        .Main-Class-Container .name { 
+            font-size:2rem !important; 
+            text-align: center !important;
+            padding-top:1rem !important;
+            margin-top:1rem !important;
+
+        }
+        .about-container p{
+            line-height: 1.2;
+
+        }
+        .Main-Class-Container p{
+            line-height: 1.5rem;
+            margin:1.5rem 0;
+        }
+        .Main-Class-left .h-shape{
+            display: none;
+
+        }
+        .Main-title-header h2{
+            font-size: 2rem;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+        .Main-Class-Container .Main-Class-left{
+            width: 100%;
+            position: relative;
+            align-items: center;
+            display:block;
+        }
+        .Main-Class-Container .Main-Class-left .image {
+            width: 80%; 
+            height: 60%;
+            margin-left: 1rem; 
+        }
+
+        .Main-Class-Container .Main-Class-right {
+            /* width:40%; */
+            padding-right: 12rem;
+        }
+        .Main-Class-right{
+            grid-row:1;
+            padding-right: 0rem !important;
+            width:90%;
+            margin:0 auto;
+        }
+
+        .Main-title{
+            padding: 2rem 3rem !important;
+        }
+        .Portfolios{
+            grid-template-columns: repeat(1,1fr) !important;
+        }
+        .Contact-in h4{
+            font-size:1.3rem;
+        }
+        .controls{
+            top: auto;
+            bottom: 0;
+            flex-direction: row;
+            justify-content: center;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            background-color: var(--color-grey-5);        }
+    }
+
+    @media (max-width: 768px) {
+        .Main-Class-Container {
+            grid-template-columns: 1fr; /* Stack columns on smaller screens */
+            padding: 0 1rem; /* Add some padding on the sides */
+        }
+    
+        .Main-Class-Container .Main-Class-left {
+            /* display: none; Hide the left section on smaller screens */
+        }
+    
+        .Main-Class-Container .Main-Class-right {
+            padding: 2rem; /* Add padding to the right section */
+        }
+    }
+    
+    @media (max-width: 970px) {
+        .Main-Class-Container{
+            grid-template-columns: repeat(1,1fr);
+            min-height:100vh;
+        }
+        .Main-Class-Container .name{
+            font-size:2.5rem;
+            text-align: center;
+            padding-top:3rem;
+            margin-top:2rem;
+
+        }
+        .Main-Class-Container p{
+            line-height: 1.5rem;
+            margin:1.5rem 0;
+        }
+        .Main-Class-left .h-shape{
+            display: none;
+
+        }
+        .Main-Class-Container .Main-Class-left{
+            width: 100%;
+            position: relative;
+            align-items: center;
+        }
+        .Main-Class-Container .Main-Class-left .image {
+            width: 80%; 
+            height: 60%;
+            /* margin-left: 1rem;  */
+        }
+
+        .Main-Class-Container .Main-Class-right {
+            /* width:40%; */
+            padding-right: 12rem;
+        }
+        .Main-Class-right{
+            grid-row:1;
+            padding-right: 0rem !important;
+            width:90%;
+            margin:0 auto;
+        }
+
+        .Main-title{
+            padding: 7rem 6rem;
+        }
+        
+    }
+    @media  screen and (max-width:1250px) {
+        .Portfolios{
+            grid-template-columns: repeat(2,1fr);
+        }
+        
     }

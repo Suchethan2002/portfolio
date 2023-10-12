@@ -19,26 +19,14 @@ export default function About(){
                 <h4 className="Skill">
                     MY SKILLS 
                 </h4> 
-                <div className="Skill-Name-Main">
-                    <div className='Skill-Name'>
-                        <p>JAVA</p>
-                    </div>
-                    <div className='Skill-Name'>
-                        <p>Python</p>
-                    </div>
-                    <div className='Skill-Name'>
-                        <p>React.js</p>
-                    </div>
-                    <div className='Skill-Name'>
-                        <p>C Language</p>
-                    </div>
-                    <div className='Skill-Name'>
-                        <p>HTML</p>
-                    </div>
-                    <div className='Skill-Name'>
-                        <p>CSS</p>
-                    </div>
-                </div>
+            
+                <a className='Skill-Name'> JAVA </a>
+                <a className='Skill-Name'> JAVA </a>
+                <a className='Skill-Name'> JAVA </a>
+                <a className='Skill-Name'> JAVA </a>
+                <a className='Skill-Name'> JAVA </a>
+                
+                
             </div>
         </div>
     )

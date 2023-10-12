@@ -1,10 +1,10 @@
 
 import './Main.css';
 // import img1 from './Image/portfolioImage.jpeg';
-import {BiSolidHome} from 'react-icons/bi';
-import {BsFillPersonFill} from 'react-icons/bs';
-import {BiSolidBriefcase} from 'react-icons/bi';
-import {IoMdMailOpen} from 'react-icons/io';
+// import {BiSolidHome} from 'react-icons/bi';
+// import {BsFillPersonFill} from 'react-icons/bs';
+// import {BiSolidBriefcase} from 'react-icons/bi';
+// import {IoMdMailOpen} from 'react-icons/io';
 export default function Main(){
     return(
         <div>
@@ -20,7 +20,7 @@ export default function Main(){
                         Hi, I'm  
                         <span> Suchethan Reddy Karra</span>
                     </h1>
-                    <p>I am a 4rth year student studying Computer Science at BVRIT, Narsapur. I want to pursue a career in Software Development and Computer Science.</p>
+                    <p>I'm a final year student at B V Raju Institute of Technology. A newcomer in the realm of software development, eager to embark on this dynamic journey. My curiosity and passion for experimenting drive me to explore the latest technologies and push boundaries.</p>
                     <a href='https://drive.google.com/file/d/11ibLYzCAf33-ur439WlSP0X_jrfOVmRT/view?usp=sharing' className='btn btn-green' target='_blank'>Download CV</a>
                 </div>
                 
