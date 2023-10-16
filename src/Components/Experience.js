@@ -24,13 +24,13 @@ export default function Experience(){
                 <div className="Portfolio-item">
                     <div className="item">
                         <h3>BHEA TECHNOLOGIES</h3>
-                        <p>Worked with SugarCRM and Web Devlopment</p>
+                        <p>Learnt about SugarCRM and Web Devlopment</p>
                     </div>
                 </div>
                 <div className="Portfolio-item">
                     <div className="item">
                         <h3>JAVATPOINT</h3>
-                        <p>Worked as Technical Conten Writer</p>
+                        <p>Worked as Technical Content Writer</p>
                     </div>
                 </div>
                 <div className="Portfolio-item">
