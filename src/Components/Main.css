@@ -301,6 +301,7 @@ body{
         .Main-Class-Container{
             grid-template-columns: repeat(1,1fr);
             min-height:100vh;
+            
         }
         .Main-Class-Container .name { 
             font-size:2rem !important; 
@@ -353,6 +354,7 @@ body{
 
         .Main-title{
             padding: 2rem 3rem !important;
+            margin-bottom: 6rem;
         }
         .Portfolios{
             grid-template-columns: repeat(1,1fr) !important;

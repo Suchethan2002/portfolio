@@ -26,8 +26,9 @@ export default function Contact()
                                 <h4>suchethanreddyk@gmail.com</h4>
                             </div> 
                             <div className='Contact-icon-main'>
-                                <a href=''
-                                 className='Contact-icon' target='_blank'><AiFillGithub style={{fontSize: '35px',cursor:'pointer'}}/></a>
+                                
+                                 <a href='https://github.com/Suchethan2002'
+                                 className='Contact-icon' target='_blank'> <AiFillGithub style={{fontSize: '30px',cursor:'pointer'}}/></a>
 
                                 <a href='https://www.linkedin.com/in/suchethan-reddy-karra-9a0962214/'
                                  className='Contact-icon' target='_blank'> <BsLinkedin style={{fontSize: '30px',cursor:'pointer'}}/></a>
