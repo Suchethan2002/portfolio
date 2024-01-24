@@ -48,7 +48,7 @@ export default function About(){
                 <div className="Portfolio-item">
                     <div className="item">
                         <h3>Shop<span>4</span>Home</h3>
-                        <p>An Ecommerce website build using MERN Stack.</p>
+                        <p>An Ecommerce website built using MERN Stack.</p>
                     </div>
                 </div>
             </div>
