@@ -27,6 +27,7 @@ export default function About(){
                     <a className='Skill-Name'> CSS</a>
                     <a className='Skill-Name'> Web Development</a>
                     <a className='Skill-Name'> C</a>
+                    <a className='Skill-Name'> NodeJs</a>
                 </div>
 
                 <h4 className="Skill">
@@ -35,7 +36,7 @@ export default function About(){
                 <div className="Portfolio-item">
                     <div className="item">
                         <h3>Movie Recommendation System</h3>
-                        <p>Recommendation based on user Watch history.</p>
+                        <p>Recommendation System crafted with the help of Machine Learning Algorithms.</p>
                     </div>
                 </div>
                 <div className="Portfolio-item">
@@ -46,8 +47,8 @@ export default function About(){
                 </div>
                 <div className="Portfolio-item">
                     <div className="item">
-                        <h3>Novel Trust Recommendation System</h3>
-                        <p>Developing a trusted environment in emerging social network platforms.</p>
+                        <h3>Shop<span>4</span>Home</h3>
+                        <p>An Ecommerce website build using MERN Stack.</p>
                     </div>
                 </div>
             </div>
