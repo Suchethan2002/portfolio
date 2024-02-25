@@ -21,7 +21,7 @@ export default function Main(){
                         <span> Suchethan Reddy Karra</span>
                     </h1>
                     <p>I'm a final year student at B V Raju Institute of Technology. A newcomer in the realm of software development, eager to embark on this dynamic journey. My curiosity and passion for experimenting drive me to explore the latest technologies and push boundaries.</p>
-                    <a href='https://drive.google.com/file/d/1-Szj5UVLYyqlX3e2p2LsfxhFTb3oC2NL/view?usp=sharing' className='btn btn-green' target='_blank'>Download CV</a>
+                    <a href='https://drive.google.com/file/d/1vhnKP-YiXQuRPLzGo_Bp5d65BwVJ28tt/view?usp=sharing' className='btn btn-green' target='_blank'>Download CV</a>
                 </div>
                 
             </div>
