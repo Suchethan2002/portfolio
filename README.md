@@ -1,5 +1,5 @@
 
-Portfolo Link https://suchethan-reddy.vercel.app/
+Portfolio Link https://suchethan-reddy.vercel.app/
 
 
 # Getting Started with Create React App
